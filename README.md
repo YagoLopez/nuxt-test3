@@ -1,4 +1,4 @@
-# nuxt-test2
+# nuxt-test3
 
 > Nuxt.js project
 
