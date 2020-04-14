@@ -1,7 +1,7 @@
 <template>
   <v-flex>
     <v-container fluid grid-list-lg class="mt-5">
-
+      <div class="bg-blue-500 font-weight-thin mb-10 pa-2 rounded-lg text-center white--text">Tailwind Test</div>
       <client-only>
         <v-card flat>
           <v-layout row wrap>
