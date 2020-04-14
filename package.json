@@ -8,7 +8,6 @@
     "dev": "nuxt-ts",
     "build:dev": "nuxt-ts build",
     "build:prod": "nuxt-ts build -c prod.nuxt.config.js",
-    "start": "nuxt-ts start",
     "test": "jest",
     "analyze": "nuxt-ts build --analyze",
     "serve": "lite-server"
