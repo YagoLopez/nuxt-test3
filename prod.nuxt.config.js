@@ -39,7 +39,7 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    // '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss',
   ],
   /*
   ** Nuxt.js modules

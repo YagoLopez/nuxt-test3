@@ -1,4 +1,5 @@
 <style>
+/*
   html {
     font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -17,6 +18,7 @@
     box-sizing: border-box;
     margin: 0;
   }
+*/
 
   /*
   .button--green {
@@ -53,7 +55,7 @@
 
 <template>
   <v-app>
-    <nuxt class="mb-5"/>
+    <nuxt />
   </v-app>
 </template>
 

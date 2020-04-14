@@ -38,8 +38,18 @@ export default {
     '@nuxt/typescript-build',
     '@nuxtjs/vuetify',
     // Doc: https://github.com/nuxt-community/nuxt-tailwindcss
-    // '@nuxtjs/tailwindcss',
+    '@nuxtjs/tailwindcss',
+
   ],
+  tailwindcss: {
+    configPath: 'tailwind.config.js',
+    cssPath: '~/assets/css/tailwind.css',
+    purgeCSSInDev: false,
+    exposeConfig: false
+  },
+  purgeCSS: {
+    whitelist: ['css-selector-to-whitelist'],
+  },
   /*
   ** Nuxt.js modules
   */
