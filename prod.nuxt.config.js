@@ -1,6 +1,7 @@
 export default {
 
-  // mode: 'universal',
+  router: {base: '/nuxt-test2/dist'},
+
   mode: 'spa',
   /*
   ** Headers of the page
@@ -55,7 +56,8 @@ export default {
   ** Build configuration
   */
   build: {
-    buildDir: 'dist-local',
+    buildDir: 'dist',
+    publicPath: 'nuxt',
     analyze: false,
     transpile: ['vuex-module-decorators'],
     /*
