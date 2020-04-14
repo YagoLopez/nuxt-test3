@@ -13,8 +13,11 @@ export default {
       { hid: 'description', name: 'description', content: process.env.npm_package_description || '' }
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+    ],
+    noscript: [
+      { innerHTML: 'Javascript is needed to run this app', body: true }
+    ],
   },
   /*
   ** Customize the progress-bar color
@@ -44,12 +47,13 @@ export default {
   tailwindcss: {
     configPath: 'tailwind.config.js',
     cssPath: '~/assets/css/tailwind.css',
-    purgeCSSInDev: false,
+    purgeCSSInDev: true,
     exposeConfig: false
   },
-  purgeCSS: {
-    whitelist: ['css-selector-to-whitelist'],
-  },
+  // purgeCSS: {
+  //   content: ['./pages/index.vue'],
+  //   whitelist: ['/*/'],
+  // },
   /*
   ** Nuxt.js modules
   */

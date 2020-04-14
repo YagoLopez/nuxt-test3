@@ -1,4 +1,10 @@
 <style>
+/*try to move css file to assets dir*/
+  /* purgecss start ignore */
+@import './vuetify.css';
+/* purgecss end ignore */
+
+
 /*
   html {
     font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
