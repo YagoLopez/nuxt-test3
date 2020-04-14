@@ -65,5 +65,12 @@ export default {
     */
     extend (config, ctx) {
     }
+  },
+
+  vue: {
+    config: {
+      productionTip: true,
+      devtools: false
+    }
   }
 }
