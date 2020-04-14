@@ -11,7 +11,7 @@
     "test": "jest",
     "analyze": "nuxt-ts build --analyze",
     "serve": "lite-server",
-    "push:dist": "push-dir --dir=dist --branch=master --cleanup",
+    "push:dist": "push-dir --dir=dist --branch=master",
     "deploy:local": "run-s build:dev serve",
     "deploy:github": "run-s build:prod push:dist"
   },
