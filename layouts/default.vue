@@ -1,11 +1,9 @@
 <style>
-/*try to move css file to assets dir*/
+
   /* purgecss start ignore */
-@import './vuetify.css';
-/* purgecss end ignore */
+  @import '../node_modules/vuetify/dist/vuetify.min.css';
+  /* purgecss end ignore */
 
-
-/*
   html {
     font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -24,9 +22,8 @@
     box-sizing: border-box;
     margin: 0;
   }
-*/
 
-  /*
+  /* Tailwind buttons:
   .button--green {
     display: inline-block;
     border-radius: 4px;
@@ -61,7 +58,7 @@
 
 <template>
   <v-app>
-    <nuxt />
+    <nuxt></nuxt>
   </v-app>
 </template>
 
