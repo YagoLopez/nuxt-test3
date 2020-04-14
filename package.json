@@ -11,15 +11,12 @@
     "test": "jest",
     "analyze": "nuxt-ts build --analyze",
     "serve": "lite-server",
-    "push:dist": "push-dir --dir=dist --branch=master",
-    "deploy:local": "run-s build:dev serve",
-    "deploy:github": "run-s build:prod push:dist"
+    "deploy:local": "run-s build:dev serve"
   },
   "dependencies": {
     "@nuxt/typescript-runtime": "^0.4.0",
     "@nuxtjs/axios": "^5.9.7",
     "nuxt": "^2.0.0",
-    "push-dir": "^0.4.1",
     "vue": "^2.6.11",
     "vue-class-component": "^7.2.3",
     "vue-infinite-loading": "^2.4.5",
