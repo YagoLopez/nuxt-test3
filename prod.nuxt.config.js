@@ -1,6 +1,6 @@
 export default {
 
-  router: {base: '/nuxt-test2/dist'},
+  router: {base: '/nuxt-test3/dist'},
 
   mode: 'spa',
   /*
