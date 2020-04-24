@@ -2,6 +2,9 @@
 
 > Nuxt.js project
 
+## Demo
+https://yagolopez.js.org/nuxt-test3/dist/
+
 ## Build Setup
 
 ```bash
